@@ -15,7 +15,7 @@ namespace db = databento;
 
 int main() {
   auto client = db::Historical::Builder()   // was LiveBlocking::Builder
-                    .SetKey("db-BE4LqkdwnG5mWuBcpxHqgaL7cBPey")
+                    .SetKey("db-jP5e6qpUrGyTEF5rSRbWCs3BjS3fs")
                     .Build();               // was BuildBlocking
 
   auto store = client.TimeseriesGetRange(   // replaces Subscribe+Start+loop+file
